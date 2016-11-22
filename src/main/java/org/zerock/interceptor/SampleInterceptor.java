@@ -12,7 +12,7 @@ public class SampleInterceptor extends HandlerInterceptorAdapter {
 
 	private static final Logger logger = LoggerFactory.getLogger(SampleInterceptor.class);
 	
-	@Override  //pre 로그인화면처리하는거 비스무리한거
+	@Override  //pre 로그인화면처리하는거 비스무거
 	public boolean preHandle(HttpServletRequest request, HttpServletResponse response, Object handler)
 			throws Exception {		
 		
